@@ -10,38 +10,147 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
+  <body onscroll="onScroll(event)">
+    
+  </body>
   <body>
     <!-- navbar -->
     <section>
       <!-- As a heading -->
-      <nav class="navbar navbar-light bg-light py-2 shadow">
-        <div class="container-fluid my-nav-bar">
+      <nav class="navbar py-2 position-absolute w-100">
+        <div class="container-fluid my-nav-bar px-5">
           <span class="navbar-brand mb-0 h1">
-              <img src="http://trydo.rainbowit.net/assets/images/logo/logo-all-dark.png" alt="" height="40px" width="100px">
+            <img
+              src="http://trydo.rainbowit.net/assets/images/logo/logo-all-dark.png"
+              alt=""
+              height="40px"
+              width="100px"
+            />
           </span>
-          <div class="my-nav-content">
-              <span class="px-3 my-nav-link ">Home</span>
-              <span class="px-3 my-nav-link ">Service</span>
-              <span class="px-3 my-nav-link ">Get Start</span>
-              <span class="px-3 my-nav-link ">About</span>
-              <span class="px-3 my-nav-link ">Team</span>
-              <span class="px-3 my-nav-link active">Testimonial</span>
-              <span class="px-3 my-nav-link ">Portfolio</span>
-              <button class="btn ">Buy Now</button>
+          <div class="my-nav-content ml-auto my-4">
+            <a href="#home" class="px-3 my-nav-link active">Home</a>
+            <a href="#service" class="px-3 my-nav-link">Service</a>
+            <a class="px-3 my-nav-link">Get Start</a>
+            <a class="px-3 my-nav-link">About</a>
+            <a class="px-3 my-nav-link">Team</a>
+            <a class="px-3 my-nav-link">Testimonial</a>
+            <a class="px-3 my-nav-link">Portfolio</a>
+            <button class="btn btn-outline-light">Buy Now</button>
           </div>
         </div>
       </nav>
     </section>
 
     <!-- banner -->
-    <section></section>
+    <section
+      id="home"
+      class="row text-center p-5 align-content-center"
+      style="
+        background: url(http://trydo.rainbowit.net/assets/images/bg/bg-image-29.jpg);
+        height: 100vh;
+      "
+    >
+      <div style="" class="col">
+        <div
+          class="py-5"
+          style="
+            font-size: 100px;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #f81f01;
+          "
+        >
+          INTERIOR HOUSE
+        </div>
+        <div style="font-size: 20px; text-transform: uppercase; color: #fff">
+          There are many variations of passages of Lorem Ipsum available <br />
+          but the majority have suffered alteration.
+        </div>
+        <button class="btn btn-outline-light btn-lg my-5">CONTACT US</button>
+      </div>
+    </section>
 
     <!-- service -->
-    <section></section>
+    <section id="service" class="container p-5 my-5">
+      <div class="my-5">
+        <div class="my-3 fw-light">FUTURE HOUSE</div>
+        <div class="fw-bolder w-75 fs-2">
+          What you look your hopefull house we can be made it for yours. We can
+          be design yours house so dont woory you can hire us. Beautiful and
+          hand made design we can be create.
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 pe-3">
+          <img class="img-fluid my-4" src="http://trydo.rainbowit.net/assets/images/icons/icon-01.png" alt="">
+          <div class="fs-3 my-3">Interior Design</div>
+          <div class="fs-5 text-secondary fw-light">I throw myself down among the tall grass by the stream as I lie close to the earth.</div>
+        </div>
+        <div class="col-4 pe-3">
+          <img class="img-fluid  my-4" src="http://trydo.rainbowit.net/assets/images/icons/icon-02.png" alt="">
+          <div class="fs-3  my-3">Landcape Design
+          </div>
+          <div class="fs-5 text-secondary fw-light">I throw myself down among the tall grass by the stream as I lie close to the earth.</div>
+        </div>
+        <div class="col-4 pe-3">
+          <img class="img-fluid  my-4" src="http://trydo.rainbowit.net/assets/images/icons/icon-03.png" alt="">
+          <div class="fs-3  my-3">Home Interior</div>
+          <div class="fs-5 text-secondary fw-light">I throw myself down among the tall grass by the stream as I lie close to the earth.</div>
+        </div>
+      </div>
+    </section>
 
     <!-- get started -->
-    <section></section>
+    <section style="height: 100vh;">
+      <section id="getstarted" class="py-5" style="background: url(http://trydo.rainbowit.net/assets/images/bg/bg-image-30.jpg);">
+        <div class="container py-5 text-light">
+          <div class="row">
+            <div class="col">
+              <div class="my-3">READY TO DO THIS</div>
+            <div class="my-3" style="font-size:75px; font-weight: 900;">Let's get to work</div>
+            <button class="btn btn-outline-light btn-lg">CONTACT US</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container py-5 text-center my-5">
+        <div class="row py-5">
+          <div class="col-3">
+            <div class="" style="font-size: 50px;font-weight: 900;color:#f00">660</div>
+            <div class="text-uppercase fw-bold">Happy Client</div>
+          </div>
+          <div class="col-3">
+            <div class="" style="font-size: 50px;font-weight: 900;color:#f00">660</div>
+            <div class="text-uppercase fw-bold">Happy Client</div>
+          </div>
+          <div class="col-3">
+            <div class="" style="font-size: 50px;font-weight: 900;color:#f00">660</div>
+            <div class="text-uppercase fw-bold">Happy Client</div>
+          </div>
+          <div class="col-3">
+            <div class="" style="font-size: 50px;font-weight: 900;color:#f00">660</div>
+            <div class="text-uppercase fw-bold">Happy Client</div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script>  
+      var navBar=document.getElementsByClassName('navbar')[0];
+      
+      
+      function onScroll(x){
+        navBar.style.background="white"
+        navBar.style.color="#000"
+        console.log(navBar.style);
+        navBar.classList.remove('position-absolute')
+        navBar.classList.add('position-fixed')
+        navBar.classList.add('text-dark')
+        console.log(x)
+      }
+    </script>
   </body>
+
 </html>

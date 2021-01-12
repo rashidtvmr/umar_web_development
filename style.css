@@ -17,7 +17,7 @@ display
 }
 
 body {
-
+  overflow-x: hidden;
 }
 
 h1 {
@@ -29,11 +29,16 @@ h1 {
 
 .my-nav-link{
     cursor: pointer;
-
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color:#fff;
 }
 
 .my-nav-link.active{
     color:#f9004d !important;
     padding-bottom: 20px;
     border-bottom: 2px solid #f9004d;
+}
+.my-nav-link:hover{
+  color:#f9004d !important;
 }
